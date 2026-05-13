@@ -1,0 +1,17 @@
+pandas==2.2.2
+openpyxl==3.1.2
+sqlalchemy==2.0.30
+pyodbc
+numpy==1.26.4
+scikit-learn
+xgboost
+shap
+prophet
+great-expectations
+prefect
+streamlit
+matplotlib
+seaborn
+jupyter
+python-dotenv
+scipy
