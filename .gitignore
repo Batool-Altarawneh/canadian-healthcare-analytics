@@ -19,7 +19,7 @@ venv/
 # Power BI temporary files
 *.tmp
 ~$*.pbix
-
+*.pyc
 # Streamlit secrets
 .streamlit/secrets.toml
 
