@@ -232,7 +232,7 @@ GO
 
 
 CREATE TABLE fact_er_visits (
-    visit_id                    INT             NOT NULL,
+    visit_id                    VARCHAR(50)     NOT NULL,
     patient_id                  VARCHAR(20)     NOT NULL,
     hospital_id                 INT             NOT NULL,
     region_id                   INT             NOT NULL,

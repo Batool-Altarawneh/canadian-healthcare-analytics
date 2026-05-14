@@ -229,6 +229,20 @@ for col in cat_cols:
 df["billing_amount"] = df["billing_amount"].round(2)
 
 log.info("Categorical columns standardized and billing amount rounded")
+# ── Validate billing amount ────────────────────────────────────
+# after testing i found that 108 rows have negative billing amounts in the raw data.
+# Negative billing is not physically meaningful for this dataset.
+# i drop these rows and log them for transparency.
+
+invalid_billing = df["billing_amount"] < 0
+n_invalid_billing = invalid_billing.sum()
+
+if n_invalid_billing > 0:
+    log.warning(
+        f"Dropping {n_invalid_billing} rows with negative billing_amount "
+        f"(min value: ${df.loc[invalid_billing, 'billing_amount'].min():,.2f})"
+    )
+    df = df[~invalid_billing].copy()
 
 #* ─────────────────────────────────────────────────────────────
 #* Add surrogate key

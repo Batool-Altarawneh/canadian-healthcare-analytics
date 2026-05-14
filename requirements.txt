@@ -15,3 +15,4 @@ seaborn
 jupyter
 python-dotenv
 scipy
+python-dotenv
