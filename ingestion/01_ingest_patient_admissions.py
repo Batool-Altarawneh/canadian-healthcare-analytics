@@ -221,6 +221,13 @@ if missing_cat_cols:
 for col in cat_cols:
     df[col] = df[col].astype(str).str.strip().str.title()
 
+# ── Fix blood type capitalisation ─────────────────────────────
+# .str.title() converts 'AB+' to 'Ab+' because it treats every
+# letter after a non-letter as the start of a new word.
+# Blood type 'AB' is a medical abbreviation and must stay uppercase.
+df["blood_type"] = df["blood_type"].str.replace("Ab", "AB", regex=False)
+
+log.info(f"Blood type values after fix: {sorted(df['blood_type'].unique())}")
 
 #* ─────────────────────────────────────────────────────────────
 #* Round billing amount
