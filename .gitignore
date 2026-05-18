@@ -5,7 +5,7 @@ cat > .gitignore <<'EOF'
 
 # Data folders
 data/raw/
-data/processed/
+
 
 # Virtual environments
 .venv/
