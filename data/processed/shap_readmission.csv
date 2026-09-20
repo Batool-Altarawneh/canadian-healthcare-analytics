@@ -1,0 +1,11 @@
+feature,mean_abs_shap,model
+age,0.21819798760711567,Readmission Risk
+age_group,0.1594472884043111,Readmission Risk
+insurance_provider,0.08501999355436468,Readmission Risk
+medication,0.08420999874245848,Readmission Risk
+billing_amount,0.07093343410243898,Readmission Risk
+medical_condition,0.047662446811739305,Readmission Risk
+admission_type,0.04530383528399879,Readmission Risk
+length_of_stay_days,0.03474611238088983,Readmission Risk
+gender,0.028171855016471868,Readmission Risk
+test_results,0.017951933879600288,Readmission Risk

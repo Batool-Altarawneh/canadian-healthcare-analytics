@@ -1,0 +1,20 @@
+feature,mean_abs_shap,model
+urgency_level,47.33778,ER Wait Predictor
+season,12.589968,ER Wait Predictor
+time_of_day,12.128141,ER Wait Predictor
+day_of_week,9.13875,ER Wait Predictor
+nurse_patient_ratio,5.7303205,ER Wait Predictor
+facility_beds,1.2438406,ER Wait Predictor
+visit_hour,0.9422036,ER Wait Predictor
+specialist_count,0.73847586,ER Wait Predictor
+visit_month,0.47380996,ER Wait Predictor
+age,0.2181979876071156,Readmission Risk
+age_group,0.1594472884043111,Readmission Risk
+insurance_provider,0.0850199935543646,Readmission Risk
+medication,0.0842099987424584,Readmission Risk
+billing_amount,0.0709334341024389,Readmission Risk
+medical_condition,0.0476624468117393,Readmission Risk
+admission_type,0.0453038352839987,Readmission Risk
+length_of_stay_days,0.0347461123808898,Readmission Risk
+gender,0.0281718550164718,Readmission Risk
+test_results,0.0179519338796002,Readmission Risk
