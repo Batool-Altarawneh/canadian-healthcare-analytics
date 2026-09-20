@@ -12,6 +12,21 @@ This project ingests, cleans, models, and visualises three healthcare datasets i
 
 ---
 
+## 📸 Dashboard Screenshots
+
+### Executive Summary
+![Executive Summary](powerbi/Images/Executive%20Summary.png)
+
+### ER Performance
+![ER Performance](powerbi/Images/ER%20Performance.png)
+
+### Provincial Wait Times
+![Provincial Wait Times](powerbi/Images/Provincial%20Wait%20Times.png)
+
+> Home and ML Insights pages aren't captured as screenshots yet — see the **Power BI Dashboard** section below for what those pages contain.
+
+---
+
 ## Tech Stack
 
 | Layer | Tools |
